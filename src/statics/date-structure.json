@@ -1,0 +1,43 @@
+{
+    "users": {
+        "USERID1": {
+            "name": "Ivan Augusto",
+            "email": "ivan.abt69@outlook.com",
+            "online": true
+        },
+        "USERID2": {
+            "name": "JP",
+            "email": "jp.abt69@outlook.com",
+            "online": true
+        }
+    },
+    "chats": {
+        "USERID1": {
+            "USERID2": {
+                "MESSAGEID1": {
+                    "text": "Olá Ivan, Como vc está?",
+                    "from": "them"
+                },
+                "MESSAGEID2": {
+                    "text": "Estou bem JP, e como está vc?",
+                    "from": "me"
+                }
+
+            }
+
+        },
+        "USERID2": {
+            "USERID1": {
+                "MESSAGEID1": {
+                    "text": "Olá Ivan, Como vc está?",
+                    "from": "me"
+                },
+                "MESSAGEID2": {
+                    "text": "Estou bem JP, e como está vc?",
+                    "from": "them"
+                }
+            }
+        }
+
+    }
+}
