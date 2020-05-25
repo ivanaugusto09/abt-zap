@@ -5,13 +5,13 @@ import 'firebase/database'
 
 
 var firebaseConfig = {
-  apiKey: "AIzaSyDkfdLBCzCn_ra4IJbR30El8EScmllRlaM",
-  authDomain: "abtchat.firebaseapp.com",
-  databaseURL: "https://abtchat.firebaseio.com",
-  projectId: "abtchat",
-  storageBucket: "abtchat.appspot.com",
-  messagingSenderId: "987235881041",
-  appId: "1:987235881041:web:ca97d890bd0cd65fade870"
+  apiKey: "",
+  authDomain: "",
+  databaseURL: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: ""
 };
 // Initialize Firebase
 let firebaseApp = firebase.initializeApp(firebaseConfig);
